@@ -1,0 +1,60 @@
+.notfound{
+	color:red;
+	font-style:italic;
+	font-size:12px;
+	}
+.jCarouselLite{
+	overflow:hidden
+ 	}
+.jCarouselLite ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+.jCarouselLite li{
+	display:block;
+	position:relative
+	}
+.jCarouselLite li:hover  .slide-des{
+	visibility:visible;
+	cursor:pointer;
+	}
+.jCarouselLite label{
+	}
+.slide-des{
+	background:url(bg-slide-des.png);
+	position:absolute;
+	bottom:0px;
+	padding:8px;
+	width:100%;
+	color:#fff !important;
+	visibility:hidden;
+	}
+.slide-des h2{
+	color:#fff !important;
+	margin:0;
+	padding:0;
+	}
+.slide-des p{
+	font-size:12px;
+	margin:0;
+	padding:0;
+	}
+.slide-des a{
+	color:#fff !important;
+	text-decoration:underline
+	}
+.slide-des a:hover{
+	color:#fff !important;
+	text-decoration:none;
+	}
+.pagination{
+	display:block;
+	margin:-15px 0 0 0;
+	}
+.pagination a {
+	display:block;
+	width:12px;
+	float:left;
+	padding:5px 0;
+	}
